@@ -13,7 +13,7 @@ CUDA_VISIBLE_DEVICES=1 python train.py \
         --per_gpu_train_batch_size=60 \
         --max_seq_length 384 \
         --max_answer_length 384 \
-        --doc_stride 256 \
+        --doc_stride 192 \
         --save_steps 1000 \
         --n_best_size 100 \
         --overwrite_output_dir \
