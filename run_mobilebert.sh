@@ -1,4 +1,4 @@
-CUDA_VISIBLE_DEVICES=0,1 python train.py \
+CUDA_VISIBLE_DEVICES=0 python train.py \
         --output_dir ./train_models/mobilebert-cuad \
         --model_type mobilebert \
         --model_name_or_path csarron/mobilebert-uncased-squad-v2 \
