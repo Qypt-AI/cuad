@@ -9,8 +9,8 @@ CUDA_VISIBLE_DEVICES=0,1 python train.py \
         --version_2_with_negative \
         --learning_rate 1e-4 \
         --num_train_epochs 4 \
-        --per_gpu_eval_batch_size=40  \
-        --per_gpu_train_batch_size=40 \
+        --per_gpu_eval_batch_size=60  \
+        --per_gpu_train_batch_size=60 \
         --max_seq_length 384 \
         --max_answer_length 384 \
         --doc_stride 192 \
